@@ -59,7 +59,9 @@ Bu dosyanın içindeki talimatları izleyerek db erişim işlevlerini `api/schem
 
 ### Notlar
 
-- `npm test` komutuyla testleri bilgisayarınızda çalıştırın.
+- Testleri çalıştırmadan önce proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Otomatik testleri çalıştırmak için `npm test` komutunu kullanın.
+- Test skorlarını NextGen'e `npm run sendresults` komutu ile kaydedin.
 - Ek modüller oluşturabilirsiniz ancak mevcut dosya veya klasörleri taşımayın veya yeniden adlandırmayın.
 - Ek kitaplıklar yüklemek veya ek komut dosyaları eklemek dışında `package.json` dosyanızı değiştirmeyin.
 - Çözümünüzde en iyi uygulamaları izlemeniz ve temiz ve profesyonel sonuçlar üretmeniz çok önemlidir.
