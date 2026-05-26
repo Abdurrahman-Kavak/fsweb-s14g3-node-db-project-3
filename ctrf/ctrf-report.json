@@ -1,0 +1,327 @@
+{
+  "results": {
+    "tool": {
+      "name": "jest"
+    },
+    "summary": {
+      "tests": 28,
+      "passed": 28,
+      "failed": 0,
+      "pending": 0,
+      "skipped": 0,
+      "other": 0,
+      "start": 1779795326260,
+      "stop": 1779795328053
+    },
+    "tests": [
+      {
+        "name": "[0] sanity check",
+        "duration": 54,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js"
+      },
+      {
+        "name": "server.js [GET] /api/schemes [1] db'den tüm scheme'ler alınıyor, steps'leri olmayan scheme'ler de dahil (LEFT VS. INNER JOIN !!!)",
+        "duration": 41,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes"
+      },
+      {
+        "name": "server.js [GET] /api/schemes [2] dönülen schemes'lerde `scheme_id` var",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes"
+      },
+      {
+        "name": "server.js [GET] /api/schemes [3] dönülen schemes'lerde `scheme_name` var",
+        "duration": 35,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes"
+      },
+      {
+        "name": "server.js [GET] /api/schemes [4] dönülen schemes'lerde `number_of_steps` var",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes"
+      },
+      {
+        "name": "server.js [GET] /api/schemes [5] tüm schemes'ler `scheme_id`ye göre artan olarak sıralanmış",
+        "duration": 30,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes"
+      },
+      {
+        "name": "server.js [GET] /api/schemes [6] dönülen her scheme'de `number_of_steps` doğru geliyor",
+        "duration": 30,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [7] dönülen scheme'de `scheme_id` doğru geliyor",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [8] dönülen scheme'de `scheme_name` doğru geliyor",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [9] dönülen scheme'de `steps` property dizi(array) olarak var",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [10] dönülen scheme'de eğer scheme için step yoksa `steps` boş dizi olarak geliyor",
+        "duration": 30,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [11] dönülen scheme'de doğru sayıda step var",
+        "duration": 41,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [12] dönülen scheme'de her bir step içinde `step_id`, `step_number` ve `instructions` var",
+        "duration": 30,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [13] dönülen scheme'de stepler `step_number`a göre artan şekilde sıralanmış",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id [14] olmayan bir `scheme_id` için 404 ve doğru bir hata mesajı dönüyor",
+        "duration": 29,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id/steps [15] verilen `scheme_id` için doğru sayıda stepleri dönüyor",
+        "duration": 40,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id/steps [16] dönen stepler `step_number`a göre artan şekilde sıralanmış",
+        "duration": 29,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id/steps [17] dönen steplerde `step_number`, `step_id`, `instructions` ve `scheme_name` doğru geliyor",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [GET] /api/schemes/:scheme_id/steps [18] olmayan bir `scheme_id` için 404 ve doğru bir hata mesajı dönüyor",
+        "duration": 30,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [GET] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [POST] /api/schemes [19] veritabanında yeni bir scheme yaratılıyor",
+        "duration": 43,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes"
+      },
+      {
+        "name": "server.js [POST] /api/schemes [20] status code 201 olarak dönüyor",
+        "duration": 37,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes"
+      },
+      {
+        "name": "server.js [POST] /api/schemes [21] yeni yaratılan scheme kaydını dönüyor",
+        "duration": 37,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes"
+      },
+      {
+        "name": "server.js [POST] /api/schemes [22] eksik veya hatalı `scheme_name` için doğru mesajı 400 kodu ile dönüyor",
+        "duration": 32,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes"
+      },
+      {
+        "name": "server.js [POST] /api/schemes/:scheme_id/steps [23] veritabanında yeni bir step yaratıyor",
+        "duration": 37,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [POST] /api/schemes/:scheme_id/steps [24] status code 201 olarak dönüyor",
+        "duration": 36,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [POST] /api/schemes/:scheme_id/steps [25] verilen `scheme_id` için yenisi de dahil tüm steplerin listesini dönüyor",
+        "duration": 44,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [POST] /api/schemes/:scheme_id/steps [26] `step_number`a göre artan şekilde sıralı olarak düzgün bir formatta dönüyor",
+        "duration": 44,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes/:scheme_id/steps"
+      },
+      {
+        "name": "server.js [POST] /api/schemes/:scheme_id/steps [27] eksik veya hatalı `step_number` veya `instructions` için doğru mesajı 400 kodu ile dönüyor",
+        "duration": 35,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s14g3-node-db-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/schemes/:scheme_id/steps"
+      }
+    ]
+  }
+}

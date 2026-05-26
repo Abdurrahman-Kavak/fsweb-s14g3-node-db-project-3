@@ -23,8 +23,7 @@ function find() {
     .select("s.*")
     .count("st.step_id as number_of_steps")
     .groupBy("s.scheme_id")
-    .orderBy("s.scheme_id")
-    .debug();
+    .orderBy("s.scheme_id");
 }
 
 function findById(scheme_id) {
@@ -77,11 +76,6 @@ function findById(scheme_id) {
             "step_number": 1,
             "instructions": "solve prime number theory"
           },
-          {
-            "step_id": 1,
-            "step_number": 2,
-            "instructions": "crack cyber security"
-          },
           // etc
         ]
       }
@@ -94,6 +88,38 @@ function findById(scheme_id) {
         "steps": []
       }
   */
+  return db("schemes as sc")
+    .leftJoin("steps as st", "sc.scheme_id", "st.scheme_id")
+    .select(
+      "sc.scheme_name",
+      "sc.scheme_id",
+      "st.step_id",
+      "st.step_number",
+      "st.instructions",
+    )
+    .where("sc.scheme_id", scheme_id)
+    .orderBy("st.step_number", "ASC")
+    .then((rows) => {
+      if (rows.length === 0) return null;
+
+      const result = {
+        scheme_id: rows[0].scheme_id,
+        scheme_name: rows[0].scheme_name,
+        steps: [],
+      };
+
+      rows.forEach((row) => {
+        if (row.step_id) {
+          result.steps.push({
+            step_id: row.step_id,
+            step_number: row.step_number,
+            instructions: row.instructions,
+          });
+        }
+      });
+
+      return result;
+    });
 }
 
 function findSteps(scheme_id) {
@@ -118,6 +144,15 @@ function findSteps(scheme_id) {
         }
       ]
   */
+  return db("schemes as sc")
+    .leftJoin("steps as st", "sc.scheme_id", "st.scheme_id")
+    .select("st.step_id", "st.step_number", "st.instructions", "sc.scheme_name")
+    .where("sc.scheme_id", scheme_id)
+    .orderBy("st.step_number", "ASC")
+    .then((rows) => {
+      if (!rows[0] || !rows[0].step_id) return [];
+      return rows;
+    });
 }
 
 function add(scheme) {
@@ -125,6 +160,11 @@ function add(scheme) {
   /*
     1D- Bu işlev yeni bir şema oluşturur ve _yeni oluşturulan şemaya çözümlenir.
   */
+  return db("schemes")
+    .insert(scheme)
+    .then(([scheme_id]) => {
+      return findById(scheme_id);
+    });
 }
 
 function addStep(scheme_id, step) {
@@ -134,6 +174,11 @@ function addStep(scheme_id, step) {
     ve verilen "scheme_id"ye ait _tüm adımları_ çözer,
     yeni oluşturulan dahil.
   */
+  return db("steps")
+    .insert({ ...step, scheme_id })
+    .then(() => {
+      return findSteps(scheme_id);
+    });
 }
 
 module.exports = {
